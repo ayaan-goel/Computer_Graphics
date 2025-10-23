@@ -1,3 +1,10 @@
+Perfect 👌 — your project is clean and modular, with a proper structure for a **Physics Puzzle Game** using **Pygame + Pymunk**.
+
+Here’s a professional `README.md` file tailored for your setup:
+
+---
+
+```markdown
 # 🧩 Physics Puzzle Game
 
 A fun 2D **Physics Puzzle Game** built using **Pygame** and **Pymunk**.  
@@ -15,20 +22,21 @@ In this game, you can drop balls onto a static floor, reset the scene, and obser
 ---
 
 ## 🧱 Project Structure
+```
+
 CG Project/
 │
 ├── assets/
-│ └── background.png # Background image for the game
+│   └── background.png           # Background image for the game
 │
-├── graphics.py # Handles drawing and rendering
-├── physics_engine.py # Handles physics world and object creation
-├── ui.py # Handles UI and text rendering
-├── main.py # Main game loop
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── graphics.py                  # Handles drawing and rendering
+├── physics_engine.py            # Handles physics world and object creation
+├── ui.py                        # Handles UI and text rendering
+├── main.py                      # Main game loop
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
 
-yaml
-Copy code
+````
 
 ---
 
@@ -38,65 +46,100 @@ Copy code
 ```bash
 git clone <your-repo-link>
 cd "CG Project"
-2️⃣ Create and activate a virtual environment (recommended)
-bash
-Copy code
+````
+
+### 2️⃣ Create and activate a virtual environment (recommended)
+
+```bash
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # or
 source venv/bin/activate  # On macOS/Linux
-3️⃣ Install the required packages
-bash
-Copy code
+```
+
+### 3️⃣ Install the required packages
+
+```bash
 python -m pip install -r requirements.txt
+```
+
 This installs:
 
-pygame==2.5.2
+* **pygame==2.5.2**
+* **pymunk==6.7.0**
 
-pymunk==6.7.0
+---
 
-▶️ How to Run the Game
+## ▶️ How to Run the Game
+
 Run the following command in your terminal:
 
-bash
-Copy code
+```bash
 python main.py
-🕹️ Controls
-Action	Key / Mouse
-Drop a ball	Left Mouse Click
-Reset simulation	R
-Quit game	ESC
+```
 
-🧠 Code Overview
-main.py
+---
+
+## 🕹️ Controls
+
+| Action           | Key / Mouse      |
+| ---------------- | ---------------- |
+| Drop a ball      | Left Mouse Click |
+| Reset simulation | R                |
+| Quit game        | ESC              |
+
+---
+
+## 🧠 Code Overview
+
+### `main.py`
+
 Handles the main game loop, events, and physics updates.
 
-graphics.py
-Draws the background and physics bodies using Pymunk’s DrawOptions.
+### `graphics.py`
 
-physics_engine.py
+Draws the background and physics bodies using Pymunk’s `DrawOptions`.
+
+### `physics_engine.py`
+
 Creates the Pymunk space, adds gravity, static floor, and ball physics.
 
-ui.py
+### `ui.py`
+
 Displays the game title and instructions.
 
-🧰 Requirements
-Python 3.10 or later
+---
 
-Pygame 2.5.2
+## 🧰 Requirements
 
-Pymunk 6.7.0
+* Python 3.10 or later
+* Pygame 2.5.2
+* Pymunk 6.7.0
 
-🖼️ Future Improvements
-Add collision effects or sound
+---
 
-Add score or level system
+## 🖼️ Future Improvements
 
-Allow different shapes (boxes, triangles)
+* Add collision effects or sound
+* Add score or level system
+* Allow different shapes (boxes, triangles)
+* Implement interactive obstacles
 
-Implement interactive obstacles
+---
 
-👨‍💻 Author
-Ayaan Goel
+## 👨‍💻 Author
+
+**Ayaan Goel**
 B.Tech Computer Engineering, PDEU
 Computer Graphics Project, 3rd Semester
+
+---
+
+> “Physics is not just about equations — it’s about making things fall... beautifully.” 🌠
+
+```
+
+---
+
+Would you like me to also include a **preview image section** (like `![screenshot](assets/preview.png)`) so you can easily add a screenshot later?
+```
